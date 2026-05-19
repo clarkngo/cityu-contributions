@@ -208,7 +208,7 @@ function LedgerPubChart({ p }) {
             Sustained academic output.
           </h2>
           <p style={{ fontFamily: '"Inter Tight", sans-serif', fontSize: 16, lineHeight: 1.55, color: L_TOKENS.muted, margin: 0, textWrap: 'pretty' }}>
-            One peer-reviewed publication (UKC 2024) plus five conference presentations across ISCAP, CISSE, and ICOAF — spanning foundational serverless security through agentic-AI threat modeling.
+            One publication (UKC 2024) plus five conference presentations across ISCAP, CISSE, and ICOAF — spanning foundational serverless security through agentic-AI threat modeling.
           </p>
         </div>
         <div ref={ref} style={{ position: 'relative', paddingTop: 8 }}>
