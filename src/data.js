@@ -49,10 +49,10 @@ window.PORTFOLIO = {
       caption: "An open, free YouTube curriculum — CityU teaching made accessible to anyone.",
     },
     {
-      value: 1,
+      value: 3,
       suffix: "",
-      label: "Peer-reviewed paper",
-      caption: "UKC 2024 Conference Proceedings, vol. 238 — plus 5 additional conference presentations at CISSE, ICOAF, and ISCAP.",
+      label: "Published papers",
+      caption: "Journal of CISSE (cited ×10), ISCAP proceedings (cited ×2), and CityU press — plus conference presentations at CISSE, ICOAF, and UKC.",
     },
   ],
 
@@ -275,7 +275,7 @@ window.PORTFOLIO = {
       year: "2024",
       title: "Enterprise AI — Full-Stack DevSecOps with RAG",
       lead:
-        "Authored and published a graduate course bringing retrieval-augmented generation into the DevSecOps curriculum — peer-reviewed at UKC 2024 San Francisco.",
+        "Authored and published a graduate course bringing retrieval-augmented generation into the DevSecOps curriculum — published at UKC 2024 San Francisco.",
       body:
         "Designed, taught, and published a CityU course that moves beyond generic 'AI literacy' to teach students to ship secure, cloud-deployed AI systems. Work is carried into the AI Engineer Quickstart workshop and the Mobile Full Stack track.",
       outcomes: [
@@ -283,7 +283,7 @@ window.PORTFOLIO = {
         "Full-stack + security + AI integration in a single graduate course",
         "Pedagogy reused across three subsequent CityU workshops",
       ],
-      proof: "Peer-reviewed · UKC 2024 · San Francisco · Aug 21–24, 2024.",
+      proof: "UKC 2024 · San Francisco · Aug 21–24, 2024.",
     },
     {
       id: "cisse",
@@ -315,7 +315,7 @@ window.PORTFOLIO = {
         "Positions CityU in emerging agentic-AI security discourse",
         "Framework extensible to future agent architectures",
       ],
-      proof: "CISSE 2025 · Presented (not peer-reviewed).",
+      proof: "CISSE 2025 · Presented.",
     },
     {
       id: "tuklas",
@@ -442,7 +442,7 @@ window.PORTFOLIO = {
     },
   ],
 
-  // Awards, publications & recognition (journal = peer-reviewed; conference = presentation)
+  // Awards, publications & recognition
   awards: [
     {
       year: "2025",
@@ -452,7 +452,7 @@ window.PORTFOLIO = {
     {
       year: "2024",
       title: "Journal · Enterprise AI — Full-Stack DevSecOps with RAG",
-      body: "Ngo, C., Chung, S. — UKC 2024 Conference Proceedings, vol. 238, San Francisco. Peer-reviewed.",
+      body: "Ngo, C., Chung, S. — UKC 2024 Conference Proceedings, vol. 238, San Francisco.",
     },
     {
       year: "2024",
@@ -466,8 +466,8 @@ window.PORTFOLIO = {
     },
     {
       year: "2020",
-      title: "Conference · Serverless Security — Cloud-Native Threat Modeling",
-      body: "Ngo, C., Chung, S. — Colloquium for Information Systems Security Education (CISSE).",
+      title: "Journal · Serverless Computing Architecture Security and Quality Analysis",
+      body: "Ngo, C., Wang, P., Tran, T., Chung, S. — Journal of CISSE, vol. 7, no. 1. Cited ×10.",
     },
     {
       year: "2020",
@@ -501,29 +501,31 @@ window.PORTFOLIO = {
     },
   ],
 
-  // Peer-reviewed journal publications
+  // Journal publications
   journals: [
     {
-      year: "2024",
-      title: "Enterprise AI: Full-Stack DevSecOps with Retrieval-Augmented Generation",
-      venue: "UKC 2024 Conference Proceedings, vol. 238 · San Francisco",
-      authors: "Ngo, C., Chung, S.",
-    },
-    {
-      year: "2023",
-      title: "Open-Source Access and Equity in Computing Education",
-      venue: "ISCAP — Information Systems & Computing Academic Professionals",
-      authors: "Ngo, C., Chung, S.",
+      year: "2021",
+      title: "Decreasing the Barrier to Entry for an Open-Source Full-Stack Web Development",
+      venue: "Proceedings of the Conference on Information Systems Applied Research (ISCAP)",
+      authors: "Ngo, C.J., Chang, J., Chung, S.",
+      citations: 2,
     },
     {
       year: "2020",
-      title: "Serverless Security — Cloud-Native Threat Modeling",
-      venue: "Journal of the Colloquium for Information Systems Security Education (CISSE)",
-      authors: "Ngo, C., Chung, S.",
+      title: "Serverless Computing Architecture Security and Quality Analysis for Back-End Development",
+      venue: "Journal of the Colloquium for Information Systems Security Education, vol. 7, no. 1, pp. 8–8",
+      authors: "Ngo, C., Wang, P., Tran, T., Chung, S.",
+      citations: 10,
+    },
+    {
+      year: "2020",
+      title: "Software Documentation and Architectural Analysis of Full Stack Development",
+      venue: "City University of Seattle",
+      authors: "Ngo, C.J., Chang, J., Chung, S.",
     },
   ],
 
-  // Conference presentations (not all peer-reviewed)
+  // Conference presentations
   conferences: [
     {
       year: "2025",
