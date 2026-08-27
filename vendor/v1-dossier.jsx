@@ -179,16 +179,13 @@ function DossierStatline({ p }) {
   );
 }
 
-const CHAPTER_COUNT_WORDS = ['zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'ten', 'eleven', 'twelve'];
-
 // ─── CASE STUDIES — editorial drop-cap long-reads ───
 function DossierCases({ p }) {
   const [open, setOpen] = React.useState(p.cases[0].id);
-  const chapterWord = CHAPTER_COUNT_WORDS[p.cases.length] || p.cases.length;
   return (
     <section style={{ padding: '64px 72px 96px', background: D_TOKENS.cream2 }}>
       <div style={{ display: 'grid', gridTemplateColumns: '1fr auto', alignItems: 'baseline', marginBottom: 48 }}>
-        <DossierSerifH size={64}>The work, in {chapterWord} chapters.</DossierSerifH>
+        <DossierSerifH size={64}>The work, in six chapters.</DossierSerifH>
         <DossierEyebrow>Click any chapter to expand</DossierEyebrow>
       </div>
 

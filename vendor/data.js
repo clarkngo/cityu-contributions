@@ -49,10 +49,10 @@ window.PORTFOLIO = {
       caption: "An open, free YouTube curriculum — CityU teaching made accessible to anyone.",
     },
     {
-      value: 3,
+      value: 1,
       suffix: "",
-      label: "Published papers",
-      caption: "Journal of CISSE (cited ×10), ISCAP proceedings (cited ×2), and CityU press — plus conference presentations at CISSE, ICOAF, and UKC.",
+      label: "Peer-reviewed paper",
+      caption: "UKC 2024 Conference Proceedings, vol. 238 — plus 5 additional conference presentations at CISSE, ICOAF, and ISCAP.",
     },
   ],
 
@@ -239,52 +239,18 @@ window.PORTFOLIO = {
       year: "2025 – present",
       title: "STC Transformation — curriculum & AI strategy",
       lead:
-        "Co-led a School of Technology & Computing initiative that's since produced an approved degree, a live delivery platform, and a rebuilt assessment model — not just proposals.",
+        "Co-led a School of Technology & Computing initiative to modernize curriculum models, design new programs, and establish a practical AI strategy for teaching.",
       body:
-        "A broad body of strategic and technical work for CityU's School of Technology & Computing: new-program design taken through formal approval, feasibility research for a new physical-AI lab, and a redesign of how the school assesses student work now that generative AI is assumed rather than banned.",
+        "A broad body of strategic work for CityU's School of Technology & Computing: new-program proposal authoring, strategic-alignment mapping across university priorities, AI-resilient assessment models, team-project frameworks, and a technical blueprint for running open-source LLMs locally. Outputs shape how the school develops degrees, structures courses, grades work in the AI era, and evaluates its tooling stack.",
       outcomes: [
-        "Authored the proposal for a new Bachelor of Science in Artificial Intelligence; approved by the Academic Affairs Committee, April 2026",
-        "Directed feasibility research for a Digital Twins / Physical AI lab across six implementation paths, then shipped a working maritime-AI course prototype",
-        "Redesigned peer-instruction and classroom-assessment techniques to stay meaningful when every student has generative AI on hand",
-        "Authored a reusable new-program-proposal guide, now the template for the school's next program submissions",
+        "Authored program proposal that progressed through the Academic Affairs Committee",
+        "Produced strategic-alignment artifacts mapping school initiatives to university pillars",
+        "Designed an AI-empowered portfolio grading model with AI-resistant assessments",
+        "Drafted a new-program proposal guide — reusable playbook for future STC degrees",
         "Delivered a technical proposal for on-prem open-source LLM deployment",
-        "Contributed a student-club framework aimed at reducing term-to-term turnover",
+        "Contributed a student-club framework to reduce turnover and sustain engagement",
       ],
       proof: "Internal School of Technology & Computing initiative · ongoing through 2026.",
-    },
-    {
-      id: "ai-410",
-      tag: "Curriculum Design · Course Authorship",
-      year: "2026",
-      title: "AI 410 — Applied AI Engineering",
-      lead:
-        "Authored a 10-week, project-based course that takes students from a single API call to a deployed, observable, full-stack AI system — one working milestone every week.",
-      body:
-        "Built around a single compounding project instead of isolated exercises: each week ships a runnable increment, starter code included, so by week 10 the class has integrated, deployed, and demoed a complete system rather than a folder of disconnected assignments.",
-      outcomes: [
-        "10 hands-on weekly guides, each pairing a concept lecture with a runnable starter-code repository",
-        "Curriculum arc: agentic loops → embeddings & chunking → vector-DB RAG → guardrails → async processing → mobile push → observability → capstone deployment",
-        "Mid-course architecture-review checkpoint built into the syllabus, not bolted on after",
-        "Every week's code runs standalone, so students can start from any checkpoint without losing the thread",
-      ],
-      proof: "CityU School of Technology & Computing · 2026.",
-    },
-    {
-      id: "cityux",
-      tag: "Ed-Tech Architecture · Platform",
-      year: "2026",
-      title: "CityUX — open ecosystem & micro-credential platform",
-      lead:
-        "Designed a staged learner-growth architecture — free content through self-paced pilots into formal, credit-bearing enrollment — and the platform it runs on.",
-      body:
-        "A four-stage funnel model mapping the content formats, platforms, and data signals learners pass through on the way into CityU's degree and micro-credential programs, plus the assessment infrastructure the micro-credentials are scored and delivered against.",
-      outcomes: [
-        "Designed and validated a four-stage learner funnel — awareness, engagement, pilot enrollment, formal conversion — presented to university leadership",
-        "Stood up a live, cloud-deployed Open edX instance now serving a real CityU international-student cohort",
-        "Built a competency → performance-task → rubric → scoring → verifiable-delivery pipeline for micro-credential programs",
-        "Produced the evidence review behind the school's micro-credentialing strategy — market demand, credibility, and go-to-market",
-      ],
-      proof: "Live → learn.smartandsecurecomputing.com",
     },
     {
       id: "playground",
@@ -309,7 +275,7 @@ window.PORTFOLIO = {
       year: "2024",
       title: "Enterprise AI — Full-Stack DevSecOps with RAG",
       lead:
-        "Authored and published a graduate course bringing retrieval-augmented generation into the DevSecOps curriculum — published at UKC 2024 San Francisco.",
+        "Authored and published a graduate course bringing retrieval-augmented generation into the DevSecOps curriculum — peer-reviewed at UKC 2024 San Francisco.",
       body:
         "Designed, taught, and published a CityU course that moves beyond generic 'AI literacy' to teach students to ship secure, cloud-deployed AI systems. Work is carried into the AI Engineer Quickstart workshop and the Mobile Full Stack track.",
       outcomes: [
@@ -317,7 +283,7 @@ window.PORTFOLIO = {
         "Full-stack + security + AI integration in a single graduate course",
         "Pedagogy reused across three subsequent CityU workshops",
       ],
-      proof: "UKC 2024 · San Francisco · Aug 21–24, 2024.",
+      proof: "Peer-reviewed · UKC 2024 · San Francisco · Aug 21–24, 2024.",
     },
     {
       id: "cisse",
@@ -349,7 +315,7 @@ window.PORTFOLIO = {
         "Positions CityU in emerging agentic-AI security discourse",
         "Framework extensible to future agent architectures",
       ],
-      proof: "CISSE 2025 · Presented.",
+      proof: "CISSE 2025 · Presented (not peer-reviewed).",
     },
     {
       id: "tuklas",
@@ -476,7 +442,7 @@ window.PORTFOLIO = {
     },
   ],
 
-  // Awards, publications & recognition
+  // Awards, publications & recognition (journal = peer-reviewed; conference = presentation)
   awards: [
     {
       year: "2025",
@@ -486,7 +452,7 @@ window.PORTFOLIO = {
     {
       year: "2024",
       title: "Journal · Enterprise AI — Full-Stack DevSecOps with RAG",
-      body: "Ngo, C., Chung, S. — UKC 2024 Conference Proceedings, vol. 238, San Francisco.",
+      body: "Ngo, C., Chung, S. — UKC 2024 Conference Proceedings, vol. 238, San Francisco. Peer-reviewed.",
     },
     {
       year: "2024",
@@ -500,8 +466,8 @@ window.PORTFOLIO = {
     },
     {
       year: "2020",
-      title: "Journal · Serverless Computing Architecture Security and Quality Analysis",
-      body: "Ngo, C., Wang, P., Tran, T., Chung, S. — Journal of CISSE, vol. 7, no. 1. Cited ×10.",
+      title: "Conference · Serverless Security — Cloud-Native Threat Modeling",
+      body: "Ngo, C., Chung, S. — Colloquium for Information Systems Security Education (CISSE).",
     },
     {
       year: "2020",
@@ -535,31 +501,29 @@ window.PORTFOLIO = {
     },
   ],
 
-  // Journal publications
+  // Peer-reviewed journal publications
   journals: [
     {
-      year: "2021",
-      title: "Decreasing the Barrier to Entry for an Open-Source Full-Stack Web Development",
-      venue: "Proceedings of the Conference on Information Systems Applied Research (ISCAP)",
-      authors: "Ngo, C.J., Chang, J., Chung, S.",
-      citations: 2,
+      year: "2024",
+      title: "Enterprise AI: Full-Stack DevSecOps with Retrieval-Augmented Generation",
+      venue: "UKC 2024 Conference Proceedings, vol. 238 · San Francisco",
+      authors: "Ngo, C., Chung, S.",
+    },
+    {
+      year: "2023",
+      title: "Open-Source Access and Equity in Computing Education",
+      venue: "ISCAP — Information Systems & Computing Academic Professionals",
+      authors: "Ngo, C., Chung, S.",
     },
     {
       year: "2020",
-      title: "Serverless Computing Architecture Security and Quality Analysis for Back-End Development",
-      venue: "Journal of the Colloquium for Information Systems Security Education, vol. 7, no. 1, pp. 8–8",
-      authors: "Ngo, C., Wang, P., Tran, T., Chung, S.",
-      citations: 10,
-    },
-    {
-      year: "2020",
-      title: "Software Documentation and Architectural Analysis of Full Stack Development",
-      venue: "City University of Seattle",
-      authors: "Ngo, C.J., Chang, J., Chung, S.",
+      title: "Serverless Security — Cloud-Native Threat Modeling",
+      venue: "Journal of the Colloquium for Information Systems Security Education (CISSE)",
+      authors: "Ngo, C., Chung, S.",
     },
   ],
 
-  // Conference presentations
+  // Conference presentations (not all peer-reviewed)
   conferences: [
     {
       year: "2025",
