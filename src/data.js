@@ -189,7 +189,7 @@ window.PORTFOLIO = {
 
   // Secondary stats line
   statline: [
-    { k: "Apprentices trained", v: "25 veterans" },
+    { k: "Apprentices trained", v: "43 veterans" },
     { k: "Instructors + TAs led", v: "10" },
     { k: "Competitions won", v: "3 × 1st place" },
     { k: "Workshops delivered", v: "4" },
@@ -203,13 +203,13 @@ window.PORTFOLIO = {
       year: "2020 – 2021",
       title: "Amazon AWS Military Apprenticeship Program",
       lead:
-        "Ran CityU's flagship Amazon partnership — a 17-week debt-free pathway for veterans and military spouses into cloud careers — and delivered $72K in savings while placing 93% of graduates into AWS roles.",
+        "Ran CityU's flagship Amazon partnership — two intensive 17-week debt-free pathways for veterans and military spouses into cloud careers — and delivered $72K in savings while transitioning 40 of 43 veterans into AWS Teams as Systems Developers.",
       body:
-        "As Program Manager, led curriculum, instruction, and operations for the annual Amazon AWS Military Apprenticeship. Participants learned Linux system administration, networking, databases, programming, and full-stack web development. Managed a team of 5 instructors and 5 teaching assistants, and redesigned workloads to remove inefficiencies.",
+        "As Program Manager, led curriculum, instruction, and operations for the Amazon AWS Military Apprenticeship. Participants learned Linux system administration, networking, databases, programming, and full-stack web development. Managed a team of 5 instructors and 5 teaching assistants, and redesigned workloads to remove inefficiencies.",
       outcomes: [
-        "$72,000 saved across two years — a 40% reduction in operating budget",
-        "93% of apprentices placed into on-the-job training with Amazon AWS",
-        "25 veterans trained in the 17-week pre-apprenticeship cohort",
+        "$72,000 saved over two years — a 40% reduction in operational costs",
+        "40 of 43 veterans (93%) transitioned into AWS Teams as Systems Developers",
+        "43 veterans trained across two intensive 17-week pre-apprenticeship cohorts",
         "Led development of courses in sysadmin, programming, database, and full-stack",
         "Mentored and coordinated 10 instructors and TAs",
       ],
